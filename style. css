@@ -1,0 +1,70 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #fff5f0;
+}
+
+/* Header */
+header {
+    background: #ffb4a2;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px; /* added for spacing */
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background: #ff7f7f;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: 0.3s; /* smooth hover */
+}
+
+nav ul li a:hover {
+    background: #ff9770;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s; /* smooth effect */
+}
+
+/* Small hover effect */
+section:hover {
+    transform: scale(1.01);
+}
+
+/* Headings */
+h2 {
+    color: #ff7f7f;
+}
+
+/* Contact Link */
+#contact a {
+    display: inline-block;
+    background: #ff7f7f;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    background: #
